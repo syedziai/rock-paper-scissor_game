@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #24272e;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background: #fff;
+    padding: 25px;
+}
+
+header h1 {
+    color: #444;
+    text-align: center;
+}
+
+.score-board {
+    border: 2px solid #fff;
+    width: 400px;
+    margin: 45px auto;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 25px;
+    padding:15px 20px ;
+    position: relative;
+}
+
+.badge {
+    background: #e2584d;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 6px;
+}
+
+#user-label {
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    transform: translate(-10%, -50%);
+}
+
+#comp-label {
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    transform: translate(10%,-50%);
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+/* .result {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+} */
+
+.action {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.actions {
+    border: 3px solid #fff;
+    width: 48;
+    height: 48;
+    border-radius: 50%;
+    padding: 10px;
+    margin: auto 10px;
+}
+
+
+.wrapper-action {
+    display: flex;
+    flex-direction: row;
+}
+
+/* .make-move {
+    text-align: center;
+    font-size: 15px;
+} */
+
+
